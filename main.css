@@ -1,6 +1,7 @@
-body{
+html,body{
 	margin:0;
 	font-family: 'Source Sans Pro', sans-serif;
+	height: 100%;
 }
 
 #left{
@@ -35,26 +36,14 @@ h4{
 	font-size: 25px;
 	letter-spacing: .20em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+#context{
+	margin: 10px;
+}
 #right{
 	background-image: url('images/background.jpg');
 	width: 60%;
 	float: right;
 	height: 100%;
-	background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    padding-bottom: 100%;
 }
