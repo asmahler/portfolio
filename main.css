@@ -1,0 +1,60 @@
+body{
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#left{
+	width:40%;
+	float: left;
+	margin:30px auto;
+	text-align: center;
+}
+logo{
+	font-weight: bold;
+	font-size:60px;
+	border: 1px solid black;
+	padding:5px;
+
+}
+#social ul{
+	padding: 0;
+}
+#social li{
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 10px;
+	
+	
+	padding-right: 10px;	
+}
+#social img{
+	height: 30px;
+	width: 30px;
+}
+h4{
+	font-size: 25px;
+	letter-spacing: .20em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#right{
+	background-image: url('images/background.jpg');
+	width: 60%;
+	float: right;
+	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100%;
+}
